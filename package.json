@@ -1,0 +1,20 @@
+{
+  "name": "selenium-error",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "selenium-standalone install",
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": "https://github.com/chiahrens/selenium-error",
+  "devDependencies": {
+    "mocha": "^3.4.1"
+  },
+  "dependencies": {
+    "selenium-standalone": "^6.4.1",
+    "webdriverio": "^4.8.0"
+  }
+}
